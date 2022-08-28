@@ -43,6 +43,7 @@ async function createWindow() {
       nodeIntegration: true,
       contextIsolation: false,
     },
+    frame: false
   })
 
   if (app.isPackaged) {
