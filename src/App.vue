@@ -1,15 +1,14 @@
 <template>
   <v-app>
     <v-main>
-<!--      <HelloWorld/>-->
       <TitleBar/>
-      <Main/>
+      <LeftNavigation/>
     </v-main>
   </v-app>
 </template>
 
 <script setup lang="ts">
 import TitleBar from './components/titleBar/TitleBar.vue'
-import Main from './components/Main.vue'
+import LeftNavigation from './components/navigation/LeftNavigation.vue'
 
 </script>
